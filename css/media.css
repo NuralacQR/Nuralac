@@ -80,7 +80,7 @@ body {
     position: relative;
   }
   body #Main_Container {
-    background: #fff;
+    background: inherit;
     position: unset;
     height: 100% !important;
     width: 100% !important;
