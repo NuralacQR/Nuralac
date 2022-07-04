@@ -8,3 +8,11 @@ if (window.matchMedia("(min-width: 577px)").matches) {
     landTextHeader2.innerHTML = `${landTextHeader2.dataset.text}`;
   }
 }
+
+window.onload = () => {
+  setTimeout(() => {
+    console.log("Taha");
+    document.body.style.setProperty("background-color", "white", "important");
+    document.getElementById("Main_Container").style.setProperty("background-color", "white", "important");
+  }, 50);
+};

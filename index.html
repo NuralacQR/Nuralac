@@ -10,8 +10,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="format-detection" content="telephone=no" />
-    <meta name="color-scheme" content="dark light" />
-    <meta name="theme-color" content="white" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="dark" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <!-- Css files -->
@@ -36,9 +36,26 @@
       });
     </script>
     <link rel="stylesheet" href="./css/media.css" />
+    <style>
+      .bg-fixed {
+        display: block;
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+      #Main_Container {
+        /* position: relative; */
+        z-index: 2;
+        /* background-image: url("./images/s1/bg00.jpg"); */
+        /* background-repeat: repeat; */
+      }
+    </style>
   </head>
 
   <body>
+    <!-- <img class="bg-fixed" src="./images/s1/bg00.jpg" alt="" /> -->
     <div id="Main_Container" class="page1">
       <!-- main slide -->
       <div class="main-header-home">

@@ -1176,17 +1176,12 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    background: url("../images/bg.jpg") !important;
-    --special-text-color: #000;
-    --border-color: white;
-  }
   body {
     color: #333;
-    background: url("../images/bg.jpg") !important;
+    background: #fff !important;
   }
   #Main_Container {
     color: #333;
-    background: url("../images/bg.jpg") !important;
+    background: #fff !important;
   }
 }
