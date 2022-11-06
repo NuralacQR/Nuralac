@@ -3,22 +3,15 @@
 /* CSS Document */
 
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 * {
-  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
-  -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+    -webkit-touch-callout: none;
 }
-#my-text-footer {
-  width: 76%;
-  font-size: 10px;
-  line-height: 1.7;
-  position: absolute;
-  bottom: 102px;
-  left: 20px;
-}
+
 html,
 body,
 p,
@@ -41,34 +34,32 @@ pre,
 code,
 form,
 img {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 a {
-  text-decoration: none;
-  outline: none;
-  cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
 }
 
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 html {
   height: 100%;
   width: 100%;
 }
-
 body {
   width: 1024px;
   height: 768px;
   position: relative;
   margin: 0 auto;
-  background: #4f4e4c;
+  background: #4f4e4c; 
   overflow: hidden;
   padding: 0;
   transform-origin: top left;
@@ -78,22 +69,24 @@ body {
 }
 
 #Main_Container {
-  width: 1024px;
-  height: 768px;
-  overflow: hidden;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  background-image: url(../images/s3/bg.png);
-  background-repeat: no-repeat;
+    width: 1024px;
+    height: 768px;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: url(../images/s3/bg.jpg);
+    background-repeat: no-repeat;
 }
+   
 
 /* Main Slide  */
 
 /* tabs */
-#home {
+
+#home{
   position: absolute;
   display: block;
   top: 708px;
@@ -102,93 +95,81 @@ body {
   height: 58px;
 }
 
-#div1 {
-  position: absolute;
-  display: block;
-  top: 708px;
-  left: 282px;
-  width: 82px;
-  height: 58px;
-}
+#div1{
+    position: absolute;
+    display: block;
+    top: 708px;
+    left: 282px;
+    width: 82px;
+    height: 58px;
+  }
 
-#div2 {
-  position: absolute;
-  display: block;
-  top: 708px;
-  left: 377px;
-  width: 82px;
-  height: 58px;
-}
+  #div2{
+    position: absolute;
+    display: block;
+    top: 708px;
+    left: 377px;
+    width: 82px;
+    height: 58px;
+  }
 
-#div3 {
-  position: absolute;
-  display: block;
-  top: 708px;
-  left: 471px;
-  width: 82px;
-  height: 58px;
-}
+  #div3{
+    position: absolute;
+    display: block;
+    top: 708px;
+    left: 471px;
+    width: 82px;
+    height: 58px;
+  }
 
-#div4 {
-  position: absolute;
-  display: block;
-  top: 708px;
-  left: 564px;
-  width: 82px;
-  height: 58px;
-}
+  #div4{
+    position: absolute;
+    display: block;
+    top: 708px;
+    left: 564px;
+    width: 82px;
+    height: 58px;
+  }
 
-#div5 {
-  position: absolute;
-  display: block;
-  top: 708px;
-  left: 656px;
-  width: 82px;
-  height: 58px;
-}
+  #div5{
+    position: absolute;
+    display: block;
+    top: 708px;
+    left: 656px;
+    width: 82px;
+    height: 58px;
+  }
 /* end of tabs */
-
-#img1 {
+ 
+#img1{
   position: absolute;
-  top: 46px;
-  left: 20px;
-  height: 41px;
-  max-width: 754px;
+  top: 43px;
+  left: 23px;
+  height:42px;
+  max-width: 508px;
   background: url(../images/s3/img1.png);
   background-repeat: no-repeat;
 }
 
-#img2 {
+#img2{
   position: absolute;
-  top: 126px;
-  left: 220px;
+  top: 124px;
+  left: 25px;
 }
 
-#img3 {
+#img3{
   position: absolute;
-  top: 190px;
-  left: 569px;
+  top: 185px;
+  left: 179px;
 }
 
-#img4 {
+#img4{
   position: absolute;
-  top: 461px;
-  left: 347px;
-}
-
-#img5 {
-  position: absolute;
-  top: 177px;
-  left: 303px;
+  top: 185px;
+  left: 589px;
 }
 
 /* End Main Slide  */
 body #Main_Container::before {
   background: url(../images/s2/footer.png) no-repeat;
-}
-@media (max-width: 992px) {
-  #my-text-footer {
-    display: none;
-    bottom: 150px !important;
-  }
 }

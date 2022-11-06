@@ -54,13 +54,7 @@ html {
   height: 100%;
   width: 100%;
 }
-.text-footer {
-  bottom: 13.5% !important;
-}
-@media (min-width: 577px) and (max-width: 992px) {
-  body::before {
-  }
-}
+
 body {
   width: 1024px;
   height: 768px;
@@ -75,6 +69,11 @@ body {
   margin: 0;
 }
 
+@media (min-width: 577px) and (max-width: 992px) {
+  body::before {
+    /* bottom: 4% !important; */
+  }
+}
 #Main_Container {
   width: 1024px;
   height: 768px;
@@ -84,7 +83,7 @@ body {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  background-image: url(../images/s7/bg.png);
+  background-image: url(../images/s7/bg.jpg);
   background-repeat: no-repeat;
 }
 
@@ -148,66 +147,54 @@ body {
 
 #img1 {
   position: absolute;
-  top: 45px;
+  top: 44px;
   left: 20px;
-  height: 45px;
-  max-width: 699px;
+  height: 49px;
+  max-width: 728px;
   background: url(../images/s7/img1.png);
   background-repeat: no-repeat;
 }
 
 #img2 {
   position: absolute;
-  top: 288px;
-  left: 399px;
+  top: 299px;
+  left: 369px;
 }
 
 #img3 {
   position: absolute;
-  top: 117px;
-  left: 425px;
+  top: 118px;
+  left: 420px;
 }
 
 #img4 {
   position: absolute;
   top: 359px;
-  left: 115px;
+  left: 262px;
   z-index: 5;
 }
 
 #img5 {
   position: absolute;
   top: 415px;
-  left: 324px;
+  left: 472px;
   z-index: 5;
 }
 
 #img6 {
   position: absolute;
-  top: 355px;
-  left: 420px;
+  top: 358px;
+  left: 567px;
   z-index: 5;
 }
 
 #img7 {
   position: absolute;
-  top: 519px;
-  left: 118px;
-}
-
-#img8 {
-  position: absolute;
-  top: 414px;
-  left: 626px;
-}
-
-#img9 {
-  position: absolute;
-  top: 338px;
-  left: 714px;
+  top: 520px;
+  left: 264px;
 }
 
 /* End Main Slide  */
 body #Main_Container::before {
-  background: url(../images/s8/footer.png) no-repeat;
+  background: url(../images/s5/footer.png) no-repeat;
 }

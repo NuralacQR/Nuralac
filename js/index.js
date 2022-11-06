@@ -8,14 +8,11 @@ if (window.matchMedia("(min-width: 577px)").matches) {
     landTextHeader2.innerHTML = `${landTextHeader2.dataset.text}`;
   }
 }
-let landTextHeader4 = document.querySelector(".my-text-global");
-let landTextHeader3 = document.getElementById("text-tow");
-if (window.matchMedia("(max-width: 992px)").matches) {
-  console.log("Taha");
-  if (landTextHeader4) {
-    landTextHeader4.innerHTML = `${landTextHeader4.dataset.text}`;
-  }
-  if (landTextHeader3) {
-    landTextHeader3.innerHTML = `${landTextHeader3.dataset.text}`;
-  }
-}
+
+window.onload = () => {
+  setTimeout(() => {
+    console.log("Taha");
+    document.body.style.setProperty("background-color", "white", "important");
+    document.getElementById("Main_Container").style.setProperty("background-color", "white", "important");
+  }, 50);
+};

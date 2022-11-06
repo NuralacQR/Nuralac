@@ -3612,6 +3612,23 @@
   }
 }
 
+@keyframes drawLineLogo {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 200px;
+    -webkit-animation-timing-function: ease-out;
+  }
+}
+.drawLineLogo {
+  -webkit-animation-name: drawLineLogo;
+  -moz-animation-name: drawLineLogo;
+  -ms-animation-name: drawLineLogo;
+  -o-animation-name: drawLineLogo;
+  animation-name: drawLineLogo;
+}
 @-o-keyframes drawLine {
   0% {
     width: 0%;
@@ -3648,7 +3665,7 @@
   }
 
   100% {
-    height: 90px;
+    height: 80px;
     -webkit-animation-timing-function: ease-out;
   }
 }

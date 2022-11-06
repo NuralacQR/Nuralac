@@ -1,20 +1,19 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <title>Nuralac_Detailer_First_Release</title>
     <!-- Meta Tags -->
     <meta charset="UTF-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta
-      name="keywords"
-      content="css animation, animation, css3, webkit, mozilla, w3c, dan eden, @_dte, animated, animate.css, dan eden"
-    />
+    <!-- <meta name="keywords" content="css animation, animation, css3, webkit, mozilla, w3c, dan eden, @_dte, animated, animate.css, dan eden" /> -->
     <meta name="viewport" content="initial-scale = 1.0, user-scalable = yes, maximum-scale = 2.0" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" /> -->
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="dark" />
     <!-- Css files -->
     <link rel="stylesheet" href="css/s2_style.css" />
     <link rel="stylesheet" href="css/animate.css" />
@@ -33,15 +32,64 @@
 
     <script type="text/javascript" id="customs-js">
       $(document).ready(function () {
-        $("#my-text-global").insert("drawLineHeight", "0", "2");
-        $("#img-top-slide-2").insert("fadeIn", "1", "1");
-        $("#text-tow").insert("drawLine", "2", "2");
-        $("#con1").insert("fadeIn", "3", "1");
-        $("#con2").insert("fadeIn", "4", "1");
-        $("#con3").insert("fadeIn", "5", "1");
+        $("#img1").insert("drawLine", "0", "6");
+        $("#text-global").insert("drawLineHeight", "0", "4");
+        // $("#text-footer").insert("drawLineHeightFooter", "13", "3");
+        $("#img2").insert("drawLine", "3", "6");
+        $("#img3").insert("fadeInLeft", "6", "1");
+        $("#img5").insert("fadeInLeft", "8", "1");
+        $("#img7").insert("fadeIn", "10", "1");
+        $("#img8").insert("fadeIn", "11", "1");
+        $("#img9").insert("fadeInUpBig", "12", "1");
+        // my images
+        $("#my-img1").insert("fadeInLeft", "2", "1");
+        $("#my-img2").insert("fadeInLeft", "6", "1");
+        $("#my-img3").insert("fadeIn", "10", "1");
+        $("#my-img4").insert("fadeIn", "11", "1");
+        $("#my-img5").insert("fadeInUpBig", "12", "1");
 
-        /* var delay = setTimeout(function () {
-          $("#my-circle3").circleProgress({
+        var delay = setTimeout(function () {
+          $("#circle").circleProgress({
+            value: 1,
+            size: 191,
+            startAngle: 30,
+            thickness: 95.5,
+            reverse: false,
+            emptyFill: "rgba(0, 0, 0, 0)",
+            fill: {
+              image: "images/s2/img4.png",
+            },
+          });
+        }, 4000);
+        var delay = setTimeout(function () {
+          $("#my-circle1").circleProgress({
+            value: 1,
+            size: 191,
+            startAngle: 30,
+            thickness: 95.5,
+            reverse: false,
+            emptyFill: "rgba(0, 0, 0, 0)",
+            fill: {
+              image: "images/s2/img4.png",
+            },
+          });
+        }, 4000);
+
+        var delay = setTimeout(function () {
+          $("#circle2").circleProgress({
+            value: 1,
+            size: 189,
+            startAngle: 30,
+            thickness: 94.5,
+            reverse: false,
+            emptyFill: "rgba(0, 0, 0, 0)",
+            fill: {
+              image: "images/s2/img6.png",
+            },
+          });
+        }, 8000);
+        var delay = setTimeout(function () {
+          $("#my-circle2").circleProgress({
             value: 1,
             size: 191,
             startAngle: 30,
@@ -49,10 +97,10 @@
             reverse: false,
             emptyFill: "rgba(0, 0, 0, 0)",
             fill: {
-              image: "images/s2/image-4.png",
+              image: "images/s2/img6.png",
             },
           });
-        }, 12000); */
+        }, 8000);
       });
     </script>
     <link rel="stylesheet" href="./css/media.css" />
@@ -62,61 +110,68 @@
       <!-- main slide -->
       <div class="back-header">
         <div
-          id="my-text-global"
-          class="my-text-global"
-          data-text="The addition of prebiotics in infant formula alters the GI microbiota resembling that of breastfed infants<sup>1</sup>"
+          id="text-global"
+          class="text-global"
+          data-text="GIT is the largest immune organ in the body, and it is the main cause to switch formula during the 1st year of life1,2"
         >
-          The addition of prebiotics in infant formula alters the GI microbiota <br />
-          resembling that of breastfed infants<sup>1</sup>
+          GIT is the largest immune organ in the body, and it is the main cause to switch formula during the 1<sup>st</sup> year of life<sup>1,2</sup>
         </div>
       </div>
       <!-- tabs -->
       <div class="no-links">
         <a href="index.html"> <div id="home"></div></a>
         <a href="slide2.html"> <div id="div1"></div></a>
-        <a href="slide4.html"> <div id="div2"></div></a>
-        <a href="slide6.html"> <div id="div3"></div></a>
-        <a href="slide8.html"> <div id="div4"></div></a>
-        <a href="slide9.html"> <div id="div5"></div></a>
+        <a href="slide5.html"> <div id="div2"></div></a>
+        <a href="slide8.html"> <div id="div3"></div></a>
+        <a href="slide11.html"> <div id="div4"></div></a>
+        <a href="slide12.html"> <div id="div5"></div></a>
       </div>
-      <div class="container-content">
-        <!-- end of tabs -->
-        <img src="images/s2/image-1.png" alt="" class="img-top-slide-2" id="img-top-slide-2" />
-        <p class="text-tow" id="text-tow" data-text="Prebiotics “GOS” supplemented formula <br /> shows a spectrum of benefits:">
-          Prebiotics “GOS” supplemented formula shows a spectrum of benefits:
-        </p>
-        <div class="my-analysis-circle" id="my-analysis-circle">
-          <div class="con-main">
-            <div class="con1" id="con1">
-              <div>
-                <img src="images/s2/image-2.png" alt="" />
-              </div>
-              <div id="my-img1">Better stool consistency.<sup>1,3</sup></div>
-            </div>
-            <div class="con2" id="con2">
-              <div>
-                <img src="images/s2/image-3.png" alt="" />
-              </div>
-              <div id="my-img2">
-                Higher concentration of bifidobacteria compared to infants on a non-supplemented standard formula.<sup>1</sup>
-              </div>
-            </div>
-            <div class="con3" id="con3">
-              <div>
-                <img src="images/s2/image-4.png" alt="" />
-              </div>
-              <div id="my-img3">Lower risk rates of colic and regurgitation.<sup>3</sup></div>
-            </div>
+      <!-- end of tabs -->
+
+      <div class="analysis-circle">
+        <div id="img1"></div>
+        <div id="img2"></div>
+
+        <img id="img3" src="images/s2/img3.png" />
+        <div id="circle"></div>
+
+        <img id="img5" src="images/s2/img5.png" />
+        <div id="circle2"></div>
+        <div class="analysis">
+          <img id="img7" src="images/s2/img7.png" />
+          <img id="img8" src="images/s2/img8.png" />
+          <div id="mask">
+            <img id="img9" src="images/s2/img9.png" />
           </div>
         </div>
       </div>
-      <div class="text-footer" id="text-footer" style="display: block">
-        <div style="margin-bottom: 10px">GI: Gastrointestinal; GOS: Galacto-oligosaccharides. <br /></div>
-        1. Vandenplas Y, De Greef E, Veereman G. Prebiotics in infant formula. <i> Gut Microbes</i>. 2014;5(6):681-687.<br />
-        2. Davani-Davari D, Negahdaripour M, Karimzadeh I, et al. Prebiotics: Definition, Types, Sources, Mechanisms, and Clinical
-        Applications.<i> Foods </i>. 2019;8(3):92.<br />
-        3. Giovannini M, Verduci E, Gregori D, et al. Prebiotic Effect of an Infant Formula Supplemented with
-        Galacto-Oligosaccharides: Randomized Multicenter Trial. <i> J Am Coll Nutr</i>. 2014;33(5):385-93.
+      <div class="my-analysis-circle" id="my-analysis-circle">
+        <div class="con-main">
+          <div class="con1">
+            <div id="my-img1">FGIDs are extremely common, affecting nearly half of the infants around the globe.<sup>3</sup></div>
+            <div id="my-circle1"></div>
+          </div>
+          <div class="con2">
+            <div id="my-img2">In Saudi Arabia, 40% had tried at least 2 different formula brands in the first year of life.<sup>2</sup></div>
+            <div id="my-circle2"></div>
+          </div>
+        </div>
+        <div class="my-analysis">
+          <img id="my-img3" src="images/s2/img7.png" />
+          <img id="my-img4" src="images/s2/img8.png" />
+          <div id="my-mask">
+            <img id="my-img5" src="images/s2/img9.png" />
+          </div>
+        </div>
+      </div>
+      <div class="text-footer" id="text-footer">
+        GIT: Gastrointestinal tract; FGIDs: Functional gastrointestinal disorders. <br />
+        1. Chassaing B, Kumar M, Baker MT, Singh V, Vijay-Kumar M. Mammalian Gut Immunity. <i> Biomed J.</i> 2014;37(5):246-258.
+        <br />
+        2. Al-Faleh K, Al-Luwaimi E, Al-Jefri S, Al-Osaimi A, Behaisi M. Infant Formula in Saudi Arabia: A Cross Sectional Survey.
+        <i>Kuwait Med J.</i> 2014;46(4):328-32. <br />
+        3. Vandenplas Y, Al-turaiki MA, Al-Qabandi W, et al. Middle East Consensus Statement on the Diagnosis and Management of Functional
+        Gastrointestinal Disorders in < 12 Months Old Infants. <i>Pediatr Gastroenterol Hepatol Nutr.</i> 2016;19(3):153-161.
       </div>
 
       <footer class="footer">
@@ -134,10 +189,10 @@
           <div class="links">
             <a href="index.html"></a>
             <a href="slide2.html"></a>
-            <a href="slide4.html"></a>
-            <a href="slide6.html"></a>
+            <a href="slide5.html"></a>
             <a href="slide8.html"></a>
-            <a href="slide9.html"></a>
+            <a href="slide11.html"></a>
+            <a href="slide12.html"></a>
           </div>
         </div>
       </footer>
@@ -154,7 +209,15 @@
             enableobserver: false,
           });
         });
-
+        // $("#text-global").swipe({
+        //   swipeLeft: function (event, direction, distance, duration, fingerCount) {
+        //     window.location = "slide3.html";
+        //   },
+        //   swipeRight: function (event, direction, distance, duration, fingerCount) {
+        //     window.location = "index.html";
+        //   },
+        // });
+        // if (window.matchMedia("(min-width: 992px)").matches) {
         $("#Main_Container").swipe({
           swipeLeft: function (event, direction, distance, duration, fingerCount) {
             window.location = "slide3.html";
@@ -163,6 +226,7 @@
             window.location = "index.html";
           },
         });
+        // }
       });
     </script>
     <script src="./js/index.js"></script>

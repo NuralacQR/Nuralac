@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $("#img-logo1").insert("fadeIn", "0", "1");
   $("#img-logo2").insert("flipInX", "1", "1");
-  $("#img-logo3").insert("drawLine", "2", "6");
+  $("#img-logo3").insert("drawLineLogo", "2", "6");
   $("#img-logo4").insert("rotateInDownLeft", "0", "2");
   hZoom = $(window).height() / $("body").outerHeight();
   wZoom = $(window).width() / $("body").outerWidth();

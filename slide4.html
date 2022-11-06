@@ -5,16 +5,15 @@
     <!-- Meta Tags -->
     <meta charset="UTF-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta
-      name="keywords"
-      content="css animation, animation, css3, webkit, mozilla, w3c, dan eden, @_dte, animated, animate.css, dan eden"
-    />
+    <meta name="keywords" content="css animation, animation, css3, webkit, mozilla, w3c, dan eden, @_dte, animated, animate.css, dan eden" />
     <meta name="viewport" content="initial-scale = 1.0, user-scalable = yes, maximum-scale = 2.0" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="white" />
     <!-- Css files -->
     <link rel="stylesheet" href="css/s4_style.css" />
     <link rel="stylesheet" href="css/animate.css" />
@@ -29,78 +28,58 @@
 
     <script type="text/javascript" id="customs-js">
       $(document).ready(function () {
+        $("#text-global").insert("drawLineHeight", "0", "6");
+        $("#img1").insert("drawLine", "0", "6");
+        $("#img2").insert("rotateIn", "3", "1");
+        $("#img3").insert("fadeIn", "4", "1");
+        $("#img4").insert("fadeIn", "5", "1");
+        $("#img5").insert("fadeIn", "6", "1");
         // my images
-        $("#my-text-global").insert("drawLineHeight", "0", "2");
-        $("#text-tow").insert("drawLine", "1", "2");
-        $("#con-div-1").insert("fadeIn", "2", "1");
-        $("#con-div-2").insert("fadeIn", "3", "1");
-        $("#con-div-3").insert("fadeIn", "4", "1");
-        $("#con-div-4").insert("fadeIn", "5", "1");
+        $("#my-img1").insert("rotateIn", "3", "1");
+        $("#my-img2").insert("fadeIn", "4", "1");
+        $("#my-img3").insert("fadeIn", "5", "1");
+        $("#my-img4").insert("fadeIn", "6", "1");
       });
     </script>
     <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
-    <div id="Main_Container" class="page6">
+    <div id="Main_Container" class="page4">
       <!-- main slide -->
       <div class="back-header">
-        <div
-          id="my-text-global"
-          class="my-text-global"
-          data-text="Omega-3 PUFAs “DHA” participates <br /> in regulating gut immunity  and in <br /> maintaining gut homeostasis<sup>1</sup>"
-        >
-          Omega-3 PUFAs “DHA” participates in regulating gut immunity <br />
-          and in maintaining gut homeostasis<sup>1</sup>
+        <div id="text-global" class="text-global" data-text="Nuralac<sup>®</sup> advanced formula supports gut comfort by offering… ">
+          Nuralac<sup>®</sup> advanced formula supports gut comfort by offering…
         </div>
       </div>
-      <div id="text-tow" class="text-tow" data-text="Role of omega-3 PUFAs “DHA” in <br /> improving intestinal immunity:">
-        Role of omega-3 PUFAs “DHA” in improving intestinal immunity:
-      </div>
-
-      <!-- tabs -->
       <div class="no-links">
         <a href="index.html"> <div id="home"></div></a>
         <a href="slide2.html"> <div id="div1"></div></a>
-        <a href="slide4.html"> <div id="div2"></div></a>
-        <a href="slide6.html"> <div id="div3"></div></a>
-        <a href="slide8.html"> <div id="div4"></div></a>
-        <a href="slide9.html"> <div id="div5"></div></a>
+        <a href="slide5.html"> <div id="div2"></div></a>
+        <a href="slide8.html"> <div id="div3"></div></a>
+        <a href="slide11.html"> <div id="div4"></div></a>
+        <a href="slide12.html"> <div id="div5"></div></a>
       </div>
-      <!-- end of tabs -->
-      <div class="con-images" id="con-images">
-        <div class="con-div-1" id="con-div-1">
-          <img id="img4" src="images/s4/img4.png" />
-          <div class="con-ul">
-            <p>Influencing the gut microbiota by: <sup>1</sup></p>
-            <ul>
-              <li>Modulating the type and the abundance of gut microbes.</li>
-              <li>Altering the levels of proinflammatory mediators.</li>
-              <li>Regulating the levels of short-chain fatty acids or short-chain fatty acid salts.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="con-div-2" id="con-div-2">
-          <img id="img5" src="images/s4/img5.png" />
-          <p>
-            Omega-3 PUFAs exert their beneficial effects on health, brain functions, and behavior by influencing gut microbiota
-            composition and, thus, gut–brain axis functionality. <sup>2</sup>
-          </p>
-        </div>
-        <div class="con-div-3" id="con-div-3">
-          <img id="img6" src="images/s4/img6.png" />
-          <p>Reducing the intestinal epithelial cell damage.<sup>1</sup></p>
-        </div>
-        <div class="con-div-4" id="con-div-4">
-          <img id="img7" src="images/s4/img7.png" />
-          <p>Increasing intracellular mitochondrial activity and cell membrane integrity.<sup>1</sup></p>
-        </div>
+
+      <!-- tabs -->
+
+      <div id="img1"></div>
+      <div class="images-page4">
+        <img id="img2" src="images/s4/img2.png" />
+        <img id="img3" src="images/s4/img3.png" />
+        <img id="img4" src="images/s4/img4.png" />
+        <img id="img5" src="images/s4/img5.png" />
       </div>
-      <div class="new-text-footer">
-        <div>PUFAs: Polyunsaturated fatty acids; DHA: Docosahexaenoic acid.</div>
-        1. Fu Y, Wang Y, Gao H, et al. Associations among Dietary Omega-3 Polyunsaturated Fatty Acids, the Gut Microbiota, and
-        Intestinal Immunity. Mediators <i> Inflamm </i>. 2021;2021:8879227. <br />
-        2. Costantini L, Molinari R, Farinon B, Merendino N. Impact of Omega-3 Fatty Acids on the Gut Microbiota.
-        <i> Int J Mol Sci</i>. 2017;18(12):2645.
+      <div class="my-images-page4">
+        <img id="my-img1" src="images/s4/img2.png" />
+        <img id="my-img2" src="images/s4/img3.png" />
+        <div class="once-img">
+          <img id="my-img3" src="images/s4/img4.png" />
+        </div>
+        <img id="my-img4" src="images/s4/img5.png" />
+      </div>
+      <div class="text-footer">
+        GOS: Galacto-oligosaccharide. <br />
+        1. Nuralac<sup>®</sup> Labeling Information.
       </div>
       <footer class="footer">
         <div class="icon-logo">
@@ -113,34 +92,30 @@
           <div class="main-icon"><img src="./images/s1/img6.png" alt="" /></div>
         </div>
         <div class="footer-image-links">
-          <img src="./images/s4/footer.png" alt="" />
+          <img src="./images/s2/footer.png" alt="" />
           <div class="links">
             <a href="index.html"></a>
             <a href="slide2.html"></a>
-            <a href="slide4.html"></a>
-            <a href="slide6.html"></a>
+            <a href="slide5.html"></a>
             <a href="slide8.html"></a>
-            <a href="slide9.html"></a>
+            <a href="slide11.html"></a>
+            <a href="slide12.html"></a>
           </div>
         </div>
       </footer>
       <!-- main slide -->
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
     <script type="application/javascript">
       $(document).ready(function (e) {
-        $(function () {
-          if (window.matchMedia("(max-width: 992px)").matches) {
-            $("#con-images").niceScroll({
-              cursoropacitymin: 1,
-              cursorwidth: "10px",
-              hidecursordelay: 100,
-              preventmultitouchscrolling: false,
-              enableobserver: false,
-            });
-          }
-        });
-
+        // $("#text-global").swipe({
+        //   swipeLeft: function (event, direction, distance, duration, fingerCount) {
+        //     window.location = "slide5.html";
+        //   },
+        //   swipeRight: function (event, direction, distance, duration, fingerCount) {
+        //     window.location = "slide3.html";
+        //   },
+        // });
+        // if (window.matchMedia("(min-width: 992px)").matches) {
         $("#Main_Container").swipe({
           swipeLeft: function (event, direction, distance, duration, fingerCount) {
             window.location = "slide5.html";
@@ -149,6 +124,7 @@
             window.location = "slide3.html";
           },
         });
+        // }
       });
     </script>
     <script src="./js/index.js"></script>

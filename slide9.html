@@ -5,16 +5,15 @@
     <!-- Meta Tags -->
     <meta charset="UTF-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta
-      name="keywords"
-      content="css animation, animation, css3, webkit, mozilla, w3c, dan eden, @_dte, animated, animate.css, dan eden"
-    />
+    <meta name="keywords" content="css animation, animation, css3, webkit, mozilla, w3c, dan eden, @_dte, animated, animate.css, dan eden" />
     <meta name="viewport" content="initial-scale = 1.0, user-scalable = yes, maximum-scale = 2.0" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="white" />
     <!-- Css files -->
     <link rel="stylesheet" href="css/s9_style.css" />
     <link rel="stylesheet" href="css/animate.css" />
@@ -30,45 +29,68 @@
     <script type="text/javascript" id="customs-js">
       $(document).ready(function () {
         $("#img1").insert("drawLine", "0", "6");
-        $("#img2").insert("fadeIn", "3", "1");
-        $("#img3").insert("fadeIn", "0", "6");
+        $("#img2").insert("drawLine", "3", "6");
+        $("#img3").insert("fadeIn", "5", "1");
+        $("#img4").insert("fadeIn", "6", "1");
+        $("#img5").insert("fadeInUpBig", "7", "1");
         // my images
         $("#my-img1").insert("drawLineHeight", "0", "6");
-        $("#my-img2").insert("fadeIn", "3", "1");
-        $("#my-img3").insert("fadeIn", "4", "6");
+        $("#my-img2").insert("drawLine", "3", "6");
+        $("#my-img3").insert("fadeIn", "5", "1");
+        $("#my-img00").insert("fadeIn", "5", "1");
+        $("#my-img4").insert("fadeIn", "6", "1");
+        $("#my-img5").insert("fadeInUpBig", "7", "1");
       });
     </script>
     <link rel="stylesheet" href="./css/media.css" />
   </head>
 
   <body>
-    <div id="Main_Container" class="page12">
+    <div id="Main_Container" class="page9">
+      <!-- main slide -->
       <div class="back-header">
-        <!-- main slide -->
-        <div id="my-img1" class="text-global" data-text="Nuralac<sup>®</sup>: Nurturing growth with every scoop">
-          Nuralac<sup>®</sup>: Nurturing growth with every scoop
+        <div
+          id="my-img1"
+          class="text-global"
+          data-text="HMOs are suggested to be clinically relevant for the protection <br /> against infant diarrhea<sup>1</sup>"
+        >
+          HMOs are suggested to be clinically relevant for the protection against infant diarrhea<sup>1</sup>
         </div>
       </div>
       <!-- tabs -->
       <div class="no-links">
         <a href="index.html"> <div id="home"></div></a>
         <a href="slide2.html"> <div id="div1"></div></a>
-        <a href="slide4.html"> <div id="div2"></div></a>
-        <a href="slide6.html"> <div id="div3"></div></a>
-        <a href="slide8.html"> <div id="div4"></div></a>
-        <a href="slide9.html"> <div id="div5"></div></a>
+        <a href="slide5.html"> <div id="div2"></div></a>
+        <a href="slide8.html"> <div id="div3"></div></a>
+        <a href="slide11.html"> <div id="div4"></div></a>
+        <a href="slide12.html"> <div id="div5"></div></a>
       </div>
       <!-- end of tabs -->
 
-      <div class="images-page12">
+      <div class="images-page9">
         <div id="img1"></div>
-        <img id="img2" src="images/s9/img2.png" />
+        <div id="img2"></div>
         <img id="img3" src="images/s9/img3.png" />
+        <img id="img4" src="images/s9/img4.png" />
+        <div id="mask">
+          <img id="img5" src="images/s9/img5.png" />
+        </div>
       </div>
-
-      <div class="my-images-page12">
-        <img id="my-img2" src="images/s9/img2.png" />
-        <img id="my-img3" src="images/s9/img3.png" />
+      <div class="buttons-group">
+        <img id="my-img3" class="button2" src="images/s9/img3.png" />
+        <img id="my-img00" class="button1" src="images/s9/button1.png" />
+      </div>
+      <div class="my-images-page9">
+        <img id="my-img4" src="images/s9/img4.png" />
+        <div id="my-mask">
+          <img id="my-img5" src="images/s9/img5.png" />
+        </div>
+      </div>
+      <div class="text-footer">
+        HMOs: Human milk oligosaccharides; 2’-FL: 2’Fucosyllactose. <br />
+        1. Morrow AL, Ruiz-Palacios GM, Altaye M, et al. Human Milk Oligosaccharides are Associated with Protection Against Diarrhea in Breast-fed
+        Infants. <i>J Pediatr.</i> 2004;145(3):297-303.
       </div>
       <footer class="footer">
         <div class="icon-logo">
@@ -81,14 +103,14 @@
           <div class="main-icon"><img src="./images/s1/img6.png" alt="" /></div>
         </div>
         <div class="footer-image-links">
-          <img src="./images/s9/footer.png" alt="" />
+          <img src="./images/s8/footer.png" alt="" />
           <div class="links">
             <a href="index.html"></a>
             <a href="slide2.html"></a>
-            <a href="slide4.html"></a>
-            <a href="slide6.html"></a>
+            <a href="slide5.html"></a>
             <a href="slide8.html"></a>
-            <a href="slide9.html"></a>
+            <a href="slide11.html"></a>
+            <a href="slide12.html"></a>
           </div>
         </div>
       </footer>
@@ -98,16 +120,16 @@
       $(document).ready(function (e) {
         // $("#my-img1").swipe({
         //   swipeLeft: function (event, direction, distance, duration, fingerCount) {
-        //     window.location = "#";
+        //     window.location = "slide10.html";
         //   },
         //   swipeRight: function (event, direction, distance, duration, fingerCount) {
-        //     window.location = "slide11.html";
+        //     window.location = "slide8.html";
         //   },
         // });
         // if (window.matchMedia("(min-width: 992px)").matches) {
         $("#Main_Container").swipe({
           swipeLeft: function (event, direction, distance, duration, fingerCount) {
-            window.location = "#";
+            window.location = "slide10.html";
           },
           swipeRight: function (event, direction, distance, duration, fingerCount) {
             window.location = "slide8.html";

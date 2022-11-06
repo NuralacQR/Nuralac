@@ -54,20 +54,14 @@ html {
   height: 100%;
   width: 100%;
 }
-
-@media (max-width: 992px) {
-  .img-text {
-    width: 200px !important;
-    height: 100px !important;
-    top: auto !important;
-    bottom: -66px !important;
-    left: 27.5% !important;
-  }
+.text-footer {
+  bottom: 18.5% !important;
 }
-@media (min-width: 577px) and (max-width: 992px) {
+/* @media (min-width: 577px) and (max-width: 992px) {
   body::before {
+    bottom: 6% !important;
   }
-}
+} */
 body {
   width: 1024px;
   height: 768px;
@@ -91,7 +85,7 @@ body {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  background-image: url(../images/s6/bg.png);
+  background-image: url(../images/s6/bg.jpg);
   background-repeat: no-repeat;
 }
 
@@ -157,8 +151,8 @@ body {
   position: absolute;
   top: 35px;
   left: 20px;
-  height: 36px;
-  max-width: 763px;
+  height: 33px;
+  max-width: 704px;
   background: url(../images/s6/img1.png);
   background-repeat: no-repeat;
 }
@@ -168,72 +162,48 @@ body {
   top: 67px;
   left: 20px;
   height: 30px;
-  max-width: 313px;
+  max-width: 358px;
   background: url(../images/s6/img2.png);
   background-repeat: no-repeat;
 }
 
 #img3 {
   position: absolute;
-  top: 131px;
-  left: 68px;
+  top: 127px;
+  left: 25px;
 }
 
 #img4 {
   position: absolute;
-  top: 280px;
-  left: 57%;
-  width: 200px;
-  height: 200px;
-  transform: scale(2) translateX(-50%);
+  top: 157px;
+  left: 14px;
 }
-.new2-text-footer div {
-  margin-bottom: 10px;
-}
-.new2-text-footer {
-  width: 70%;
-  color: #3e3e3e;
-  font-size: 11px;
-  position: absolute;
-  bottom: 97px;
-  left: 20px;
-}
-#mask {
-  position: absolute;
-  left: 383px;
-  top: 256px;
-  height: 265px;
-  width: 296px;
-  overflow: hidden;
-}
+
 #img5 {
   position: absolute;
-  left: 21px;
-  bottom: 0px;
-  width: 70%;
-  height: 100%;
+  top: 157px;
+  left: 266px;
+}
+
+#img6 {
+  position: absolute;
+  top: 157px;
+  left: 519px;
+}
+
+#img7 {
+  position: absolute;
+  top: 157px;
+  left: 770px;
+}
+
+#img8 {
+  position: absolute;
+  top: 490px;
+  left: 177px;
 }
 
 /* End Main Slide  */
 body #Main_Container::before {
-  background: url(../images/s8/footer.png) no-repeat;
-}
-.img-text {
-  width: 300px;
-  height: 200px;
-  margin-bottom: 160px;
-  margin-top: 40px;
-  margin-left: 27%;
-}
-.img-text-new {
-  width: 300px;
-  height: 200px;
-  position: absolute;
-  left: 66.6%;
-  top: 36%;
-}
-@media (min-width: 992px) {
-  #img-text2 {
-    display: none;
-  }
+  background: url(../images/s5/footer.png) no-repeat;
 }

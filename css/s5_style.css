@@ -54,7 +54,6 @@ html {
   height: 100%;
   width: 100%;
 }
-
 body {
   width: 1024px;
   height: 768px;
@@ -78,7 +77,7 @@ body {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  background-image: url(../images/s5/bg.png);
+  background-image: url(../images/s5/bg.jpg);
   background-repeat: no-repeat;
 }
 
@@ -142,56 +141,47 @@ body {
 
 #img1 {
   position: absolute;
-  top: 44px;
+  top: 35px;
   left: 20px;
-  height: 49px;
-  max-width: 728px;
+  height: 33px;
+  max-width: 771px;
   background: url(../images/s5/img1.png);
   background-repeat: no-repeat;
 }
 
 #img2 {
   position: absolute;
-  top: 299px;
-  left: 369px;
+  top: 67px;
+  left: 20px;
+  height: 30px;
+  max-width: 182px;
+  background: url(../images/s5/img2.png);
+  background-repeat: no-repeat;
 }
 
 #img3 {
   position: absolute;
-  top: 118px;
-  left: 420px;
+  top: 121px;
+  left: 25px;
 }
 
 #img4 {
   position: absolute;
-  top: 359px;
-  left: 262px;
-  z-index: 5;
+  top: 177px;
+  left: 212px;
+  width: 56%;
+  border: 2px solid #25abda;
+  border-radius: 10px;
 }
 
 #img5 {
   position: absolute;
-  top: 415px;
-  left: 472px;
-  z-index: 5;
-}
-
-#img6 {
-  position: absolute;
-  top: 358px;
-  left: 567px;
-  z-index: 5;
-}
-
-#img7 {
-  position: absolute;
-  top: 520px;
-  left: 264px;
+  top: 297px;
+  left: 789px;
 }
 
 /* End Main Slide  */
+
 body #Main_Container::before {
   background: url(../images/s5/footer.png) no-repeat;
-}
-@media (min-width: 992px) {
 }

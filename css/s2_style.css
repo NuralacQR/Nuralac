@@ -77,7 +77,7 @@ body {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  background-image: url(../images/s2/bg.png);
+  background-image: url(../images/s2/bg.jpg);
   background-repeat: no-repeat;
 }
 
@@ -199,106 +199,16 @@ body {
   bottom: 0px;
   width: 100%;
 }
-#my-circle3 canvas,
-#my-circle2 canvas,
-#my-circle1 canvas {
-  width: 100%;
-}
-#ascrail2000-hr {
-  display: none;
-}
-.img-top-slide-2 {
-  display: block;
-  width: 500px;
-  height: 80px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 10px;
-}
-.text-gol-sec-2 {
-  height: 33px !important;
-}
-.my-analysis-circle {
-  margin-top: 50px !important;
-}
-.con-main {
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#my-img2 {
-  width: 56%;
-  text-align: center;
-}
-.con2 {
-  margin-top: 43px;
+
+#circle {
+  position: absolute;
+  left: 194px;
+  top: 148px;
 }
 
-.con-main > div {
-  width: calc(100% / 3);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.con-main > div > div:nth-of-type(2) {
-  color: #333686;
-  font-weight: 500;
-  line-height: 1.2;
-  font-size: 15px;
-  max-width: 100% !important;
-}
-.con-main img {
-  width: 150px;
-  height: 200px;
-}
-.text-tow {
-  top: 244px !important;
+#circle2 {
+  position: absolute;
+  left: 194px;
+  top: 375px;
 }
 
-@media (min-width: 992px) {
-  .text-footer {
-    width: 76% !important;
-    font-size: 9px !important;
-    line-height: 1.7 !important;
-    margin-left: 20px !important;
-    margin-top: -20px;
-  }
-}
-@media (max-width: 992px) {
-  .text-tow {
-    top: 160px !important;
-  }
-  .container-content {
-    margin-top: 20px !important;
-  }
-  .img-top-slide-2 {
-    width: 300px !important;
-    height: auto !important;
-  }
-  .con-main {
-    flex-direction: column;
-  }
-  .con-main > div {
-    flex-direction: row;
-    width: 100%;
-  }
-  .con2,
-  .con3 {
-    margin-top: 0px;
-  }
-  #my-img2 {
-    text-align: start;
-  }
-  .con-main > div > div:nth-of-type(2) {
-    width: 47% !important;
-  }
-  .con-main img {
-    width: 150px !important;
-    height: 150px !important;
-  }
-  .text-tow {
-    height: 37px;
-  }
-}
